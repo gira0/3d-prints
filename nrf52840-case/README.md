@@ -8,6 +8,9 @@ It was made for [OpenPuck](https://github.com/safijari/openpuck): open-source fi
 It was measured with calipers, test-printed and refined over several prints.
 It was designed with help from Claude (Anthropic's AI assistant) in Claude Code.
 
+**Printables:** https://www.printables.com/model/1897347
+**GitHub (source):** https://github.com/gira0/3d-prints/tree/main/nrf52840-case
+
 ![Printed case with board](images/photo-1.jpg)
 
 | | |

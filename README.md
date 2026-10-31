@@ -5,7 +5,7 @@ Parametric OpenSCAD models for 3D printing, one folder per project. Each folder 
 | Project | Description | Printables |
 |---|---|---|
 | [subaru-floor-mat-retainer](subaru-floor-mat-retainer/) | Replacement for the Subaru floor mat retainer hook (OEM J501EAJ000 / J501SAJ300) | [model 1858866](https://www.printables.com/model/1858866) |
-| [nrf52840-case](nrf52840-case/) | Snap-fit case for a Pro Micro nRF52840 (nice!nano v2 compatible) with all headers soldered, made for [OpenPuck](https://github.com/safijari/openpuck) | — |
+| [nrf52840-case](nrf52840-case/) | Snap-fit case for a Pro Micro nRF52840 (nice!nano v2 compatible) with all headers soldered, made for [OpenPuck](https://github.com/safijari/openpuck) | [model 1897347](https://www.printables.com/model/1897347) |
 
 ## Working with the models
 

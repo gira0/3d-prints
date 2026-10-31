@@ -55,7 +55,9 @@ Hobby & Makers → Electronics  *(or: Gadgets → Computers, whichever fits bett
 
 ## Tags
 
-nrf52840, pro micro, nice!nano, nicenano, supermini, case, enclosure, snap fit, zmk, bluetooth, microcontroller, development board, headers, openpuck, steam controller, steam controller 2, puck, dongle, openscad, parametric
+nrf52840, promicro, nicenano, supermini, openpuck, steamcontroller, puck, dongle, case, enclosure, snapfit, zmk, bluetooth, microcontroller, headers, openscad, parametric
+
+(Printables splits tags at spaces, so use single words.)
 
 ## License
 
