@@ -14,10 +14,10 @@ The case was built and test-fitted on 2026-10-31 for the Elecrow-style "Pro Micr
 | Board length `pcb_l` | 33.02 | **32.9** | case 0.12 mm shorter |
 | Pins per long row `row_pins` | 12 (B−/B+ holes for wires only) | **13**: the header also goes through B−/B+ | pin slots start at X = 1.27, not 3.81 |
 | Tallest solder joint above PCB top `tail_above` | 1.4 | **2.0** | tails reach Z 3.6; below the USB-C, so not limiting |
-| USB-C shell top above PCB underside `usb_top` | 3.2 (mid-mount, sunk into the PCB) | **4.0**: the receptacle sits on top of the PCB | receptacle axis at Z ≈ 2.4; lid ceiling at 4.3 |
+| USB-C shell top above PCB underside `usb_top` | 3.2 (mid-mount, centred in the PCB cut-out) | **4.0**: the receptacle sits in the PCB cut-out but raised, not centred | receptacle axis at Z ≈ 2.4; lid ceiling at 4.3 |
 | USB plug opening | 12.5 × 7.0 rectangle | **11.0 × 6.0, 2 mm corner radius** | neater; fits slim cables (check yours) |
 
-So **this board does not use the mid-mount USB-C described in the Z-stack section below**, and **its B−/B+ holes accept header pins**. Both points contradict the research notes for the official boards. Clones vary, so measure. The finished case measures **38.75 × 22.88 × 16.8 mm** on the outside, with the split line at Z ≈ 0.1.
+So **this board's USB-C is not centred in its PCB cut-out like the mid-mount socket described in the Z-stack section below; it sits in the cut-out but raised, about 0.8 mm higher**, and **its B−/B+ holes accept header pins**. Both points contradict the research notes for the official boards. Clones vary, so measure. The finished case measures **38.75 × 22.88 × 16.8 mm** on the outside, with the split line at Z ≈ 0.1.
 
 Results of the prints (Anycubic Kobra S1, 0.4 mm nozzle, 0.2 mm layers, Anycubic PLA+ black, textured PEI plate):
 
@@ -243,7 +243,7 @@ Enter these in the `[Board: MEASURE these]` block:
 2. **`hdr_plastic`**: height of the black header plastic. Check the 3-pin strip too; if it differs from the long strips, use the larger value.
 3. **`hdr_long`**: long pin length from the underside of the plastic to the pin tip.
 4. **`tail_above`**: height of the tallest solder joint or pin tail above the PCB top face.
-5. **`usb_top`**: height of the USB-C shell top above the PCB underside. It is about 3.2 for a mid-mount receptacle; 4.0 was measured on the as-built board, which has a top-mount one.
+5. **`usb_top`**: height of the USB-C shell top above the PCB underside. It is about 3.2 for a mid-mount receptacle; 4.0 was measured on the as-built board, whose socket sits raised in the PCB cut-out.
 6. **`pcb_l` / `pcb_w`**: board length and width (expect 32.9–33.0 × 17.8).
 7. **`row_pins`**: count the header pins in one long row. Use 13 if the strip also goes through the B−/B+ holes at the USB end, otherwise 12.
 8. **Which 3-pin layout**: if the 3-pin row lines up with the 10th pin from the USB end, set `variant = "nicenano"`. If it sits about 2 mm further out, almost in line with pin 11, set `variant = "supermini"`. Leaving it at `"both"` also works.
@@ -282,4 +282,4 @@ In a fully headered case, the board's own outline barely matters. The parts that
 
 The remaining risk is concentrated in a few numbers no source publishes: PCB thickness, header plastic height, long-pin length, and which extra-pin layout your board actually uses. All of them can be read with calipers in about two minutes. Before the full print, print a 3 mm-tall test slice of the floor and shelf to check these values. A misjudged plastic height of ±0.5 mm moves every Z value above it, while the X/Y grid is fixed by the Pro Micro standard and will not move.
 
-The as-built board showed why measuring matters. Two of its features, a top-mount USB-C and header pins through the B−/B+ holes, contradicted what the research found for the official boards. Neither was visible in the published footprints. Both were caught by calipers and a test print, and needed only a parameter change each.
+The as-built board showed why measuring matters. Two of its features, a raised USB-C socket and header pins through the B−/B+ holes, contradicted what the research found for the official boards. Neither was visible in the published footprints. Both were caught by calipers and a test print, and needed only a parameter change each.

@@ -37,7 +37,7 @@ The STLs are generated for the measured board below. If your board differs, chan
 
 ## Measure your board first
 
-Clones differ. The as-built board had **13 pins per row** (the header also goes through the B−/B+ holes) and a **USB-C that sits on top of the PCB**, both unlike the official nice!nano. Enter these values in the `[Board: MEASURE these]` block:
+Clones differ. The as-built board had **13 pins per row** (the header also goes through the B−/B+ holes) and a **raised USB-C socket**: it sits in the usual cut-out in the PCB, but higher than the centred mid-mount socket on the official nice!nano (top 4.0 mm above the PCB underside instead of about 3.2). Enter these values in the `[Board: MEASURE these]` block:
 
 | Setting | What to measure | As built |
 |---|---|---|
