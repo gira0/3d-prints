@@ -36,7 +36,7 @@ USB-C top above the PCB underside (4.0)
 board length (32.9)
 pins per row (13)
 
-Print test.stl first. It's a 3 mm slice of the base with all the pin slots and takes about 10 minutes, so you can check the fit without printing the whole base.
+If you're unsure about your board, print the base first and check that the pins drop in before printing the lid.
 
 
 PRINTING

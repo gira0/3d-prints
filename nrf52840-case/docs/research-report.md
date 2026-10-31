@@ -274,7 +274,7 @@ Print settings and tips:
 - **First layer of the lid:** the engraving is printed against the build plate. Use a first-layer line width of about 0.42, not a wide one such as the 0.5 default in some profiles, and avoid heavy first-layer squish. Both fill engraved strokes. A smooth plate gives sharper, higher-contrast letters than textured PEI. Textured PEI still produced readable text.
 - **Wall loops:** use 3–4 loops so the 2.2 mm base walls print solid rather than as 2 perimeters around sparse infill.
 - **Material:** PETG is the better choice for snap-fits because it flexes without cracking. With PLA the snap works, but expect the bumps to wear after many openings; reduce `bump_int` to 0.3 if the lid is too hard to remove.
-- **Calibration:** print `part = "test"` first. If the pins drag in the slots, raise `pin_slot` to 1.3. If the header plastic doesn't sit flat on the bed, re-measure `hdr_plastic`.
+- **Calibration:** print the base first and check the pin fit before printing the lid. `part = "test"` exports a 3 mm slice of the bed if you'd rather test faster. If the pins drag in the slots, raise `pin_slot` to 1.3. If the header plastic doesn't sit flat on the bed, re-measure `hdr_plastic`.
 
 ## Conclusion
 

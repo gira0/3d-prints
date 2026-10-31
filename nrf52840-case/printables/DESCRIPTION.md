@@ -28,7 +28,6 @@ Fill in the [bracketed] line about OpenPuck first.
 - `stl/base_rst_bottom.stl`: base with the floor slot
 - `stl/base_rst_none.stl`: closed base
 - `stl/lid.stl`: engraved lid
-- `stl/test.stl`: pin-fit test slice
 - `nrf52840_case.scad`: parametric source
 
 ## Images
