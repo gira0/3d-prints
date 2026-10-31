@@ -23,6 +23,7 @@ It was designed with help from Claude (Anthropic's AI assistant) in Claude Code.
 | `stl/lid.stl` | Lid with the "Open / Puck" engraving |
 | `stl/test.stl` | 3 mm slice of the base to check the pin fit first (about 10 minutes) |
 | `preview/` | Renders of the model |
+| `printables/` | Listing text (`DESCRIPTION.md`) and render images for printables.com |
 | `docs/research-report.md` | Board dimensions, pin coordinates, clearances, and as-built measurements |
 | `docs/research_notes/` | The research notes behind the report, with sources |
 
