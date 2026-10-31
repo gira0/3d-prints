@@ -3,6 +3,8 @@
 Two-part snap-fit case for a **Pro Micro nRF52840** board (nice!nano v2 compatible / SuperMini clones) with **all headers soldered**: both long rows plus the 3 extra pins (P1.01 / P1.02 / P1.07) at the end of the board.
 The header plastic sits under the board and the long pins point down (breadboard orientation). The case encloses everything and keeps the USB-C port reachable.
 
+It was made for [OpenPuck](https://github.com/safijari/openpuck): open-source firmware that turns this board into a replacement for the Steam Controller 2's wireless "puck" receiver. The Pro Micro nRF52840 is the default hardware for it. The case fits any Pro Micro nRF52840 with headers, whatever firmware it runs.
+
 It was measured with calipers, test-printed and refined over several prints.
 It was designed with help from Claude (Anthropic's AI assistant) in Claude Code.
 

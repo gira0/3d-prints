@@ -20,7 +20,6 @@ Snap-fit case for a Pro Micro nRF52840 (nice!nano v2 clone) with all headers sol
 Copy the whole of **`description.txt`** (plain text, no Markdown) into the description field.
 Printables' editor mangles pasted Markdown; plain text pastes cleanly. Afterwards you can make the
 section titles (FEATURES, PRINTING, ...) headings with the editor's toolbar if you like.
-Fill in the [bracketed] line about OpenPuck first.
 
 ## Files to upload
 
@@ -56,7 +55,7 @@ Hobby & Makers → Electronics  *(or: Gadgets → Computers, whichever fits bett
 
 ## Tags
 
-nrf52840, pro micro, nice!nano, nicenano, supermini, case, enclosure, snap fit, zmk, bluetooth, microcontroller, development board, headers, openscad, parametric
+nrf52840, pro micro, nice!nano, nicenano, supermini, case, enclosure, snap fit, zmk, bluetooth, microcontroller, development board, headers, openpuck, steam controller, steam controller 2, puck, dongle, openscad, parametric
 
 ## License
 

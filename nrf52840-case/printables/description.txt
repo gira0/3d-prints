@@ -2,7 +2,7 @@ A two-part, screwless snap-fit case for a Pro Micro nRF52840 development board (
 
 Most cases for these boards assume a bare board. This one is built around the soldered headers. The header plastic rests on a raised floor, the long pins drop into slots, and the USB-C port stays reachable.
 
-[One or two sentences on what OpenPuck is / what you use the board for.]
+Made for OpenPuck (https://github.com/safijari/openpuck): open-source firmware that turns this board into a replacement for the Steam Controller 2's "puck", the wireless USB receiver the controller connects to. The Pro Micro nRF52840 is the default hardware for it, because its radio supports all the wireless the puck needs. The case fits any Pro Micro nRF52840 with headers, whatever firmware it runs. It is not part of the OpenPuck project and not affiliated with Valve.
 
 Tested with a "Pro Micro NRF52840 Development Board compatible with nice!nano V2.0". It has 13 pins per long row, because the header also goes through the B-/B+ holes. Its USB-C socket sits raised in the PCB cut-out instead of centred in it. The board drops in, the cable plugs in fully, and the lid clicks on tight without rattling.
 
