@@ -1,0 +1,8 @@
+# slicer output (printer-specific)
+*.gcode
+*.bgcode
+# OpenSCAD backups
+*.scad~
+*.bak
+# user-supplied logo files (see project READMEs)
+nrf52840-case/assets/

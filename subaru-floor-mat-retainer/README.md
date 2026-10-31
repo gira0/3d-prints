@@ -10,7 +10,7 @@ The model was measured from an original part with calipers and refined over two 
 It was designed with help from Claude (Anthropic's AI assistant) in Claude Code.
 
 **Printables:** https://www.printables.com/model/1858866
-**GitHub (source):** https://github.com/gira0/subaru-floor-mat-retainer
+**GitHub (source):** https://github.com/gira0/3d-prints/tree/main/subaru-floor-mat-retainer
 
 | File | Purpose |
 |---|---|
